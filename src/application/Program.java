@@ -42,6 +42,10 @@ public class Program {
 		seller.setName("Enzo Gabriel");
 		sellerDao.update(seller);
 		System.out.println("Update completed!");
+		
+		System.out.println("\n==== Test 5: seller delete =====");
+		sellerDao.deleteById(8);
+		System.out.println("Delete completed!");
 	}
 
 }
